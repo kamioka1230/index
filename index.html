@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="css/pizza.styles.css">
+</head>
+<body>
+
+
+
+<div class="overlay-nav" id="mobile-nav">
+<div class="overlay-nav-inner">
+  <nav class="mobile-navigation">
+    <div class="nav-item"><a href="#">about</a></div>
+    <div class="nav-item"><a href="#">menu</a></div>
+    <div class="nav-item"><a href="#">order</a></div>
+    <div class="nav-item"><a href="#">press</a></div>
+    <div class="nav-item"><a href="#">contact</a></div>
+  </nav>
+</div>
+</div>
+
+
+<header>
+
+  <label for="" class="mobile-nav-toggle-label" id="mobile-nav-toggle">
+    <div class="top-bar"></div>
+    <div class="middle-bar"></div>
+    <div class="bottom-bar"></div>
+  </label>
+
+  <script type="text/javascript">
+    window.onload = function() {
+      var toggle = document.getElementById('mobile-nav-toggle');
+      var nav = document.getElementById('mobile-nav');
+      toggle.addEventListener('click', function(){
+        if (toggle.classList.contains('rotate')) {
+          toggle.classList.remove('rotate');
+          nav.style.display = 'none';
+        } else {
+          toggle.classList.add('rotate');
+          nav.style.display = 'block';
+        }
+      });
+    }
+  </script>
+
+  <div class="header-banner">
+    <div class="logo"></div>
+    <div class="header-nav">
+      <div class="nav-wrapper">
+      <ul>
+        <li>about</li>
+        <li>menu</li>
+        <li>order</li>
+        <li>press</li>
+        <li>contact</li>
+      </ul>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div>
+<div class="thumbnail-wrapper" style="position:relative;overflow:hidden;padding:100px 0;width:100%;background-color:#000;">
+    <div class="color-overlay" style="position:absolute;right:0;bottom:0;left:0;top:0;z-index:99;background-color:rgba(0,0,0,.37);"></div>
+  <figure style="position:absolute;top:0;left:0;right:0;bottom:0;">
+    <img src="img/pizza-slice.jpg" alt="">
+  </figure>
+
+  <div class="" style="padding-top:35px;z-index:100;width:100%;">
+  </div>
+</div>
+</div>
+
+<div class="content-wrapper" style="padding:40px 20px;">
+<main>
+<section class="menu">
+  <header>
+    <h1>Menu</h1>
+    <div class="" style="font-size:16px;font-family:interstate-condensed;">SLICE / PIE</div>
+  </header>
+  <div class="block">
+    <div class="menu-item">
+      <span>$3.50 / $22</span>
+      <div class="menu-item-name">cheese</div>
+      <div class="menu-item-description">tomato sauce, mozzarella & basil</div>
+    </div>
+
+    <div class="menu-item">
+      <span>$3.50 / $22</span>
+      <div class="menu-item-name">cheese</div>
+      <div class="menu-item-description">tomato sauce, mozzarella & basil</div>
+    </div>
+
+    <div class="menu-item">
+      <span>$3.50 / $22</span>
+      <div class="menu-item-name">cheese</div>
+      <div class="menu-item-description">tomato sauce, mozzarella & basil</div>
+    </div>
+
+    <div class="menu-item">
+      <span>$3.50 / $22</span>
+      <div class="menu-item-name">cheese</div>
+      <div class="menu-item-description">tomato sauce, mozzarella & basil</div>
+    </div>
+  </div>
+</section>
+
+<section class="menu">
+  <header>
+    <h1>Menu</h1>
+    <div class="" style="font-size:16px;font-family:interstate-condensed;">SLICE / PIE</div>
+  </header>
+  <div class="block">
+    <div class="menu-item">
+      <span>$3.50 / $22</span>
+      <div class="menu-item-name">cheese</div>
+      <div class="menu-item-description">tomato sauce, mozzarella & basil</div>
+    </div>
+
+    <div class="menu-item">
+      <span>$3.50 / $22</span>
+      <div class="menu-item-name">cheese</div>
+      <div class="menu-item-description">tomato sauce, mozzarella & basil</div>
+    </div>
+
+    <div class="menu-item">
+      <span>$3.50 / $22</span>
+      <div class="menu-item-name">cheese</div>
+      <div class="menu-item-description">tomato sauce, mozzarella & basil</div>
+    </div>
+
+    <div class="menu-item">
+      <span>$3.50 / $22</span>
+      <div class="menu-item-name">cheese</div>
+      <div class="menu-item-description">tomato sauce, mozzarella & basil</div>
+    </div>
+  </div>
+</section>
+
+</main>
+</div>
+
+<footer>
+<div class="footer-inner">
+@ 2019 Pizzeria. All rights reserved.
+</div>
+</footer>
+  </body>
+</html>
