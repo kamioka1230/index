@@ -189,6 +189,7 @@ main section {
 }
 .menu-item .menu-item-description {
   margin-top: 5px;
+  margin-right: 3em;
   line-height: 1.3em;
   font-size: 19px;
 }
